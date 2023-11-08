@@ -28,7 +28,7 @@ Follow these steps to get the web application up and running on your local machi
    ```
 ## Usage
 
-- When you open the web application, you'll see a list of electornic recources displayed as stlish item-cards.
+- When you open the web application, you'll see a list of electronic recources displayed as stlish item-cards.
 - Each item-card includes the resource name, price, stock count, description, and attractive item images.
 - Use the "Remove" button to remove a resource from the list.
 - To update the "on stock" status, simply click on the stauts, and it will toggle between "in stock" and "out of stock."
@@ -38,7 +38,7 @@ Follow these steps to get the web application up and running on your local machi
 
 ## Stylish Item Cards
 
-- The web application displays resources using stylish item cards. Each item card includes a resource name, price, stock counr, desrciption, and an attractive image. The CSS styles for the item cards are defined in the `styles.css` file. You can customize these styles to create a unique and visually applealing design.
+- The web application displays resources using stylish item cards. Each item card includes a resource name, price, stock count, desrciption, and an attractive image. The CSS styles for the item cards are defined in the `styles.css` file. You can customize these styles to create a unique and visually appealing design.
 
 ## Increment and Decrement Options
 
@@ -50,11 +50,11 @@ Follow these steps to get the web application up and running on your local machi
 
 ## Transitions for Item Cards Images
 
-- The item card images are designed with smooth hover transitions to provide an attractive user experience. To costomize these transitions, naviagte to the `styles.css` file and look for the CSS rules that apply to the `.item-card img` and `item-card img:hover` selectors. You can adjust properties like`transform` to control the image behavior on hover.
+- The item card images are designed with smooth hover transitions to provide an attractive user experience. To customize these transitions, naviagte to the `styles.css` file and look for the CSS rules that apply to the `.item-card img` and `item-card img:hover` selectors. You can adjust properties like`transform` to control the image behavior on hover.
 
 ## Footer 
 
-- The web application includes a footer that appears at the bottom of the page. It contains information and copyright details. You can customize the footer's appearance by modifying the CSS rules for the `footer` and `.footer-content` classes in the `styles.css` file.
+- The web application includes a footer that appears at the bottom of the page. It contains information and copyright details. You can customize the footer's appearance by modifying the CSS rules for the `footer` and `.footer-text` classes in the `styles.css` file.
 
 # Acknowledgments
 
