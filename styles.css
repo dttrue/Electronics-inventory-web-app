@@ -146,13 +146,29 @@ span {
 @media (max-width: 767px) {
 
     .item-card {
-        width: 100%;
+        width: 70%;
         margin: 10px 0;
+
     }
 
 
     .item-card strong {
         font-size: 1em;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 250px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 250px;
+    }
+
+    h2 {
+        display: grid;
+        grid-template-columns: 250px;
     }
 }
 
@@ -168,4 +184,8 @@ span {
     .item-card strong {
         font-size: 1.2em;
     }
+
+
+   
 }
+
