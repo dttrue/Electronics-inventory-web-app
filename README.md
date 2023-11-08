@@ -5,7 +5,7 @@ This is a simple web application for managing electronics
 
 ## Features
 
-- View a list of electronic resources displayed as stylis item-cards.
+- View a list of electronic resources displayed as stylish item-cards.
 - Remove resources from the list.
 - Update the "in stock" status for each resource.
 - Add new resources to the inventory.
