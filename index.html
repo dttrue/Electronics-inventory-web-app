@@ -4,33 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
     <title>Electronis Inventory</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Electronics Inventory Managemaent App</h1>
+        <h1>Electronics Store Inventory</h1>
       </header>
       <div class="container-2">
-        <div class="supplies">
-          <div class="item-card">
-            <img
-              src="data:image/jpeg;base64,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"
-              alt=""
-            />
-          </div>
-        </div>
+        <div class="supplies"></div>
         <div class="form">
           <h2>Add New Items</h2>
           <form id="supply-form">
-            <input type="text" id="name" placeholder="Name" required />
-            <input type="text" id="price" placeholder="Price" required />
-            <input type="number" id="stock" placeholder="In Stock" required />
-            <button type="submit">Submit</button>
-            <button type="button" id="reset-button">Reset</button>
+            <hr />
+            <label for="name">Name:</label> <br />
+            <input autocomplete="given-name" type="text" id="name" required />
+            <br />
+            <label for="price">Price:</label> <br />
+            <input type="text" id="price" required /> <br />
+            <label for="stock">In Stock:</label> <br />
+            <input type="number" id="stock" required /> <br />
+            <label for="imageurl">ImageURL:</label> <br />
+            <input type="text" id="imageurl" required />
+            <label for="description">Description:</label> <br />
+            <input type="text" id="description" required />
           </form>
-          <div id="error-message" class="error-message"></div>
+          <div class="error-message">
+            <ul>
+              
+              <li><p>Price must be greater than $1</p></li>
+              <li><p>In stock cannot be blank</p></li>
+            </ul> 
+          </div>
+          <button type="submit" id="submit-button">Submit</button>
+          <button type="button" id="reset-button">Reset</button>
+          
         </div>
       </div>
       <footer>

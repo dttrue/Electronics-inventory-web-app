@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: lightgray;
-    margin: 0;
+    margin: 0px;
     padding: 0;
+
 }
 
 header {
@@ -10,22 +11,34 @@ header {
     color: #fff;
     text-align: center;
     padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
 
 }
 
+
+h2 {
+    text-align: end;
+    margin-right: 10px;
+}
+
+
+
 .container {
     display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    grid-gap: 5px;
+    padding: 20px;
     min-height: 100vh;
 }
 
 
 .container-2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    padding: 20px;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+    padding-top: 5px;
 }
 
 .supplies {
@@ -36,13 +49,15 @@ header {
 
 .form {
     background-color: #fff;
-    padding: 20px;
     border: 1px solid #ccc;
+    align-items: center;
+
 }
 
+
 .error-message {
-    color: red;
-    margin-top: 10px;
+    background-color: red;
+    color: #fff;
 }
 
 .image-container {
@@ -51,12 +66,6 @@ header {
     align-items: center;
     margin: 20px;
 }
-
-img {
-    width: 200px;
-    border: 1px #ccc solid;
-}
-
 
 footer {
     background-color: #333;
@@ -68,4 +77,95 @@ footer {
 .footer-text {
     max-width: 800px;
     margin: 0 auto;
+}
+
+input {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+
+}
+
+button {
+    width: 90px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+
+
+label {
+    margin-left: 10px;
+
+}
+
+span {
+    margin-left: 5px;
+}
+
+.item-card {
+    width: 25%;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 4px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.item-card img {
+    width: 100%;
+    height: calc(100% * 3 / 8);
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    transition: transform 0.2s;
+}
+
+.item-card img:hover {
+    transform: scale(1.1);
+}
+
+
+.item-card strong {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.item-card p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .item-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+
+    .item-card strong {
+        font-size: 1em;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .item-card {
+        width: 45%;
+        margin: 10px;
+    }
+
+
+    .item-card strong {
+        font-size: 1.2em;
+    }
 }
