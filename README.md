@@ -46,7 +46,7 @@ Follow these steps to get the web application up and running on your local machi
 
 ## Alert Features 
 
-- This web application includes alert features to provide feedback to users during interactions. For example, you'll receive an alert if you attempt to submit the form without filling in the required fields. THe alertd ar designed to rnchance the user experience and provide guidance on how to use the application effectively.
+- This web application includes alert features to provide feedback to users during interactions. For example, you'll receive an alert if you attempt to submit the form without filling in the required fields. The alerts are designed to enhance the user experience and provide guidance on how to use the application effectively.
 
 ## Transitions for Item Cards Images
 
